@@ -2,9 +2,9 @@ pipeline {
   agent any
 	
   environment {
-    DOCKERHUB_CREDENTIALS = credentials('docker-hub-cred')
-    REMOTE_SERVER = 'your-remote-server-ip'
-    REMOTE_USER = 'your-remote-server-user' 	  	  
+    //DOCKERHUB_CREDENTIALS = credentials('docker-hub-cred')
+    //REMOTE_SERVER = 'your-remote-server-ip'
+   // REMOTE_USER = 'your-remote-server-user' 	  	  
   }
 	
   // Fetch code from GitHub
